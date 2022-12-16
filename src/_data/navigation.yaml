@@ -1,0 +1,10 @@
+---
+items:
+  - text: Notes
+    url: "https://notes.clckblog.space/"
+  - text: Studio
+    url: "https://studio.clckblog.space/"
+  - text: Blog
+    url: "/blog"
+  - text: About
+    url: "/about"

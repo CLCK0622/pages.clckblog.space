@@ -1,0 +1,21 @@
+---
+layout: default
+title: CLCK's Blog
+path: home
+---
+
+<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
+  <h1>
+    Welcome to
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+      {{title}}
+    </strong>
+  </h1>
+
+  <p>
+    This blog site is made by <b>11ty</b>.
+    <abbr title="netlify cms, eleventy, alpine js & tailwind css">Glad to meet you! </abbr>
+  </p>
+
+  {% include "./_includes/partials/content.html" %}
+</div>
