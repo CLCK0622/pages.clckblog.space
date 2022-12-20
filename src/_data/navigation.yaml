@@ -2,8 +2,8 @@
 items:
   - text: Notes
     url: "https://notes.clckblog.space/"
-  - text: Studio
-    url: "https://studio.clckblog.space/"
+  - text: Archives
+    url: "/archives"
   - text: Blog
     url: "/blog"
   - text: About
