@@ -3,8 +3,8 @@ items:
   - text: Notes
     url: "https://notes.clckblog.space/"
   - text: Archives
-    url: "/archives"
+    url: "https://pages.clckblog.space/archives"
   - text: Blog
-    url: "/blog"
+    url: "https://pages.clckblog.space/blog"
   - text: About
-    url: "/about"
+    url: "https://pages.clckblog.space/about"

@@ -16,6 +16,16 @@
           rel="stylesheet"
           href="https://unpkg.com/@waline/client@v2/dist/waline.css"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css" />
+    <style>
+      body {
+        font-family: "LXGW WenKai", sans-serif !important;
+      }
+      pre, code {
+        font-family: "LXGW WenKai Mono", sans-serif !important;
+      }
+    </style>
+    <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
     {% if description %}
       <meta name="description" content="{{description}}"/>
     {% endif %}
@@ -31,6 +41,8 @@
     {{ content | safe }}
 
     {% include "./partials/footer.html" %}
+
+    <script color="83,83,249" opacity="1" zIndex="-2" src="https://cdn.bootcdn.net/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js"></script>
 
     <script src="/static/js/alpine.js"></script>
 
