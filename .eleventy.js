@@ -36,8 +36,14 @@ module.exports = function (eleventyConfig) {
       "./static/css/prism-tomorrow.css",
   });
 
+  // Copy style.css
+  eleventyConfig.addPassthroughCopy("./src/static/css");
+
   // Copy Image Folder to /_site
   eleventyConfig.addPassthroughCopy("./src/static/img");
+
+  // Copy Images in Posts
+  eleventyConfig.addPassthroughCopy("./src/img");
 
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
@@ -62,6 +68,7 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "src",
+      output: "_site", 
     },
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
