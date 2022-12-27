@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.1/css/all.min.css" async rel="stylesheet">
     <script>
       MathJax = {tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}};
     </script>
-    <script type="text/javascript" id="Mathjax" src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
+    <script type="text/javascript" id="Mathjax" async src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
     <title>
       {{ title }} | {{ site.name }}
     </title>
@@ -25,7 +25,7 @@
         font-family: "LXGW WenKai Mono", sans-serif !important;
       }
     </style>
-    <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <script async src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
     {% if description %}
       <meta name="description" content="{{description}}"/>
     {% endif %}
