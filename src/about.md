@@ -11,7 +11,7 @@ title: About me
 - ✉️ `zhongyi070622@163.com`
 - 🖥 Windows 11 + Clion / MacOS 13 + VSCode
 - 🔨 Ready to contribute with C++/HTML/Java/Python!
-- 📝 [`Blog`](https://pages.clckblog.space) and [`Home Page`](https://www.clckblog.space)
+- 📝 [`Blog`](https://pages.clckblog.space) and [`Homepage`](https://www.clckblog.space)
 - [`Twitter`](https://twitter.com/KevinZh19316459)
 - [`Telegram`](https://t.me/CLCK0622)
 - 🎮 Play on [`Steam`](https://steamcommunity.com/id/zhongyi070622/) and [`Epic`](https://store.epicgames.com/zh-CN/u/3e733c852de04da686cca0abf85adda7)
