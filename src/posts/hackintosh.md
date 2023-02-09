@@ -3,8 +3,6 @@ title: "黑苹果常用工具及命令"
 date: 2023-02-09 09:35:02.00
 ---
 
-# Hackintosh-黑苹果-工具
-
 转载自[远景论坛](https://bbs.pcbeta.com/viewthread-1957443-1-1.html)。
 
 向原作者表示感谢！
